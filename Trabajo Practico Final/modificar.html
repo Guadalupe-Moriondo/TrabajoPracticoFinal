@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Producto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header> 
+        
+        <img src="imagen-logo.png" class="logo" alt="logo ">
+
+        <h1>EDITAR PRODUCTO</h1>
+    </header>
+    <main>
+        <form id="formularioModificar">
+                <input type="hidden" id="idcod" name="idcod">
+                <div>
+                    <label for="titulo">Título:</label>
+                    <input type="text" id="productoTitulo" required>
+                </div>
+                
+                <div>
+                    <label for="precioPeso">Precio en Pesos:</label>
+                    <input type="number" id="productoPrecioPeso" required>
+                </div>
+                
+                <div>
+                    <label for="precioDolar">Precio en Dólares:</label>
+                    <input type="number" id="productoPrecioDolar" required>
+                </div>
+                
+                <div>
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="productoFecha" required>
+                </div>
+                
+             
+            <button type="button" id="btnModificar">Guardar</button>
+        </form>
+    </main>
+    <footer>
+        <div> <a href = "https://www.instagram.com/?hl=es-la"> Instagram</a> </div> <div> <a href = "https://www.facebook.com/?locale=es_LA"> Facebook</a> </div> <div> Whatsapp +54 3564 607581 </div> <div> <a>Juan B Justo 1158</a> </div> <div> <a>San Francisco, Cordoba</a></div>
+    </footer>
+    <script src="Modificar.js"></script>
+</body>
+</html>
